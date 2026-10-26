@@ -1,0 +1,27 @@
+RefDes,Subsystem,Component_Type,Part_Number,Qty,Status,Notes
+U1,Compute,ARM64 SoC/Module,TBD,1,SELECT,Use vendor reference platform
+U2,Memory,DDR5/LPDDR5 Controller/Memory,TBD,1,SELECT,Capacity target 64-256 GB
+U3,GPU,Discrete GPU,TBD,1,SELECT,PCIe interface
+U4,Cartridge A,FPGA,TBD,1,SELECT,PCIe/high-speed endpoint
+U5,Cartridge B,FPGA,TBD,1,SELECT,PCIe/high-speed endpoint
+U6,Storage,M.2 NVMe Controller/SSD,TBD,1,SELECT,2 TB target
+U7,Network,10GbE PHY/Controller,TBD,1,SELECT,2.5GbE fallback
+U8,Wireless,Wi-Fi 7/Bluetooth Module,TBD,1,SELECT,Module preferred for RF certification
+U9,USB,USB4/USB 3 Controller,TBD,1,SELECT,Final ports depend on SoC
+U10,Display,HDMI 2.1/DP Retimer,TBD,1,SELECT,Use only if required by source SoC
+U11,EC,Microcontroller,TBD,1,SELECT,Power/fan/keyboard management
+U12,Power,Main PMIC/Power Monitor,TBD,1,SELECT,24 V input monitoring
+U13,Power,CPU VRM,TBD,1,SELECT,Vendor CPU design guide required
+U14,Power,GPU VRM,TBD,1,SELECT,Vendor GPU design guide required
+J1,Power,24 V DC Input,TBD,1,SELECT,Locking connector preferred
+J2,Storage,M.2 Key M,TBD,1,SELECT,PCIe NVMe
+J3,Expansion,Cartridge A,TBD,1,SELECT,Custom connector
+J4,Expansion,Cartridge B,TBD,1,SELECT,Custom connector
+J5,Display,HDMI 2.1,TBD,1,SELECT,Rear I/O
+J6,Display,DisplayPort,TBD,1,SELECT,Rear I/O
+J7,USB,USB-C USB4,TBD,1,SELECT,Rear I/O
+J8,USB,USB-A USB 3.2,TBD,2,SELECT,Rear I/O
+J9,Network,RJ45 10GbE,TBD,1,SELECT,Rear I/O
+J10,Audio,3.5 mm TRS,TBD,1,SELECT,Rear I/O
+F1,Power,Input Fuse,TBD,1,SELECT,Current rating TBD after power budget
+D1,Power,TVS Diode,TBD,1,SELECT,24 V transient protection
