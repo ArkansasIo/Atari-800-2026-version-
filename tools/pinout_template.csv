@@ -1,0 +1,13 @@
+connector,pin,signal,direction,notes
+J_PWR,1,+24V_IN,input,Main DC input
+J_PWR,2,GND,power,Return
+J_DEBUG,1,UART_TX,output,EC debug
+J_DEBUG,2,UART_RX,input,EC debug
+J_DEBUG,3,GND,power,Ground
+J_CART_A,1,PCIE_REFCLK,input,High-speed differential pair
+J_CART_A,2,PCIE_RX_P,input,High-speed differential pair
+J_CART_A,3,PCIE_RX_N,input,High-speed differential pair
+J_CART_A,4,PCIE_TX_P,output,High-speed differential pair
+J_CART_A,5,PCIE_TX_N,output,High-speed differential pair
+J_CART_A,6,+3V3,power,Protected cartridge rail
+J_CART_A,7,GND,power,Ground
