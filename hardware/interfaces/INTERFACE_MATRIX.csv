@@ -1,0 +1,15 @@
+Interface,Host,Endpoint,Protocol,Target,Notes
+PCIe Root,ARM64 SoC,Discrete GPU,PCIe,TBD,Use SoC vendor lane map
+PCIe Slot A,ARM64 SoC,FPGA A,PCIe,TBD,Cartridge controller
+PCIe Slot B,ARM64 SoC,FPGA B,PCIe,TBD,Cartridge controller
+NVMe,ARM64 SoC,M.2 SSD,PCIe/NVMe,Gen4+,2 TB target
+Ethernet,SoC/Controller,10GbE PHY,MDI/XFI,TBD,2.5GbE fallback
+USB4,SoC/Controller,USB-C,USB4,TBD,Rear I/O
+USB 3.2,SoC/Controller,USB-A,USB 3.2,TBD,Rear I/O
+Display,SoC/GPU,HDMI,HDMI 2.1,TBD,Rear I/O
+Display,SoC/GPU,DisplayPort,DP,TBD,Rear I/O
+Wireless,PCIe/USB,Wi-Fi module,Wi-Fi 7/BT,TBD,RF module
+EC I2C,EC MCU,Sensors, I2C,100-400kHz,Telemetry
+EC PWM,EC MCU,Fans,PWM,25kHz nominal,Fan control
+EC UART,EC MCU,Debug header,UART,115200,Factory/service
+Keyboard,EC MCU,Keyboard matrix,GPIO/scan,TBD,Classic-style keyboard
