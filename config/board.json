@@ -1,0 +1,14 @@
+{
+  "project": "ATARI800-2026",
+  "revision": "A0",
+  "chassis_mm": {"length": 330, "width": 280, "height": 60},
+  "power": {"input_voltage_v": 24, "recommended_psu_w": 400},
+  "compute": {"cpu_architecture": "ARM64", "cpu_selection": "TBD_VENDOR_REFERENCE_PLATFORM", "gpu_selection": "TBD_DISCRETE_PCIE_GPU"},
+  "memory": {"technology": "DDR5_OR_LPDDR5", "capacity_gb": 64, "maximum_design_capacity_gb": 256},
+  "storage": {"internal": "M2_NVME", "internal_capacity_tb": 2, "cartridge_storage_per_slot_tb": 128},
+  "cartridge": {"slots": 2, "controller": "FPGA", "link": "PCIE_OR_CUSTOM_HIGH_SPEED_LINK", "storage_protocol": "NVME_OR_VENDOR_STORAGE_PROTOCOL"},
+  "network": {"ethernet": ["2.5GbE", "10GbE"], "wireless": ["WiFi_7", "Bluetooth"]},
+  "display": {"hdmi": "HDMI_2_1", "displayport": "DisplayPort"},
+  "usb": ["USB_3_2", "USB4"],
+  "thermal": {"fans": 2, "temperature_sensors": ["CPU", "GPU", "VRM", "SSD", "CARTRIDGE_A", "CARTRIDGE_B"]}
+}
