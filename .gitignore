@@ -1,0 +1,20 @@
+# CMake build artifacts
+build/
+build-*/
+
+# Compiled binaries
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+
+# IDE / editor
+.vscode/
+.vs/
+.idea/
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
